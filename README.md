@@ -8,9 +8,10 @@
 2. download example code ***firebase_client.ino** and run the code
 
 ## Raspberry Pi with a BME280 sensor
-1. install firebase-admin package for python: ```pip install firebase-admin```
+1. install firebase-admin package for Python: ```pip install firebase-admin```
 2. code ***firebase_test.py***: Test if it can write/read data to/from firebase
 3. code ***firebase_bme280.py***: push sensor data along with the date/time information to the firebase.
+4. code ***savedata.py***: called by ***firebase_bme280.py*** to save data locally on Raspberry pi. 
 
 
 

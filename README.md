@@ -5,7 +5,7 @@
 
 ## NodeMCU with a BME280 sensor
 1. install Firebase Arduino Client library for ESP32 and ESP8266 in Arduino IDE
-2. download example code ***firebase_client.ino** and run the code
+2. download example code ***firebase_client.ino*** and run the code (make sure you modify the WiFi and API key/Database URL configs at the top of the program)
 
 ## Raspberry Pi with a BME280 sensor
 1. install firebase-admin package for Python: ```pip install firebase-admin```

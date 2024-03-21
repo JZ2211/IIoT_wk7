@@ -57,7 +57,7 @@ try:
          rpidate = tmp[0] 
          rpitime = tmp[1]
          print(output) #display last result in the terminal
-         ref.push().set({'Date':rpidate, 'Time':rpitime, 'temperature (degC)': temperature, 'humidity (%)': humidity, 'pressure (Pa)': pressure})
+         ref.push().set({'Date':rpidate, 'Time':rpitime, 'temperature (degC)': temperature, 'humidity (%)': humidity, 'pressure (hPa)': pressure})
 
 except KeyboardInterrupt:
       print("Interrupted by User")

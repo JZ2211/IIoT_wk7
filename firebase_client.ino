@@ -133,7 +133,7 @@ void loop() {
 
     json.set("Timestamp/.sv", F("timestamp"));
     json.set("temperature(C)", bme280.readTemperature());
-    json.set("pressure(hPa)", bme280.readPressure());
+    json.set("pressure(hPa)", bme280.readPressure()/100.0);
     json.set("humidity(%)", bme280.readHumidity());
     json.toString(Serial);   //display the json object in Serial monitor
     Serial.println();
